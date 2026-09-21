@@ -4,11 +4,11 @@ body {
     margin: 0;
     padding: 0;
 }
-.main header{
+.main-header{
     width: 100%;
-    background-color: #f6a186;
+    background-color: #e484ac;
     /* border-bottom: 1px solid #ccc; */
-    postions: sticky;
+    position: sticky;
     top: 0;
     z-index: 1000;
 }
