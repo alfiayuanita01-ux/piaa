@@ -22,5 +22,24 @@ body {
     padding: 15px 0;
 }
 .brand h1 {
-    color: darkblue;
+    color: black;
+    margin: 0;
+    font-size: 28px;
+}
+.main-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* ini digunakan untuk menghapus bullet pada list */ */
+    display: flex;
+    gap: 10px;
+}
+.main-nav li{
+    margin: 0;
+}
+.main-nav a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
 }
